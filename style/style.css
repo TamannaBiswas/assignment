@@ -281,7 +281,136 @@ p {
   max-width: 440px;
 }
 /*  habit to play   end */
-/* Trainings and Exercises end */
+/* BMI Calculator start */
+.bmi-contaner {
+  background-color: rgb(34, 34, 34);
+  margin: 40px 0;
+  padding: 50px 30px;
+}
+.bmi-section-contaner {
+  max-width: 553px;
+  margin: 0 auto;
+}
+.bmi-contaner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+.Calculate {
+  max-width: 570px;
+}
+table {
+  border-collapse: collapse;
+}
+caption {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+td,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 20px 30px;
+}
+th {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+.Calculate-title {
+  color: rgb(255, 255, 255);
+
+  font-size: 28px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+.Calculate-dis {
+  margin-bottom: 35px;
+}
+.Calculate-input input,
+select {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding: 12px 40px 12px 20px;
+}
+.Calculate-input select {
+  margin-top: 20px;
+  width: 40%;
+}
+.Calculate-input select,
+option {
+  color: rgba(255, 255, 255, 0.6);
+}
+.Calculate-input-2 select {
+  margin: 20px 0;
+  width: 80%;
+}
+.Calculate-input-2 select,
+option {
+  color: rgba(255, 255, 255, 0.6);
+}
+.btn-primary4 {
+  padding: 16px 40px 16px 40px;
+  margin-top: 10px;
+}
+/* BMI Calculator end */
+
+/* Meet Our Team section start */
+.Meet-section {
+  max-width: 1300px;
+  text-align: center;
+  padding: 20px 0px;
+}
+.Meet-dis {
+  margin-bottom: 50px;
+}
+.Meet-box1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 18px;
+}
+.Meet-contaner img {
+  width: 100%;
+  border-radius: 18px;
+  height: 270px;
+}
+.Meet-box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 18px;
+}
+/* Meet Our Team section end */
+/* footer */
+.footer-section {
+  background: rgb(26, 26, 26);
+}
+.footer-contanrt {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.footer-contan {
+  max-width: 340px;
+}
+.footer-right-title {
+  color: rgb(255, 255, 255);
+}
+.footer-right {
+  display: flex;
+  gap: 3rem;
+}
+.footer-right p {
+  margin: 10px 0;
+}
+.footer-p {
+  text-align: center;
+  padding: 30px 0;
+}
 /****************** main style end **************************/
 /******************* footer style start ************************/
 /************************ footer style end ***********************/
@@ -403,6 +532,58 @@ p {
   }
 
   /*  habit to play   end */
+  /* BMI Calculator start */
+  .bmi-contaner {
+    display: block;
+  }
+  .bmi-section-contaner {
+    margin: 20px;
+  }
+
+  .Calculate-input input,
+  select {
+    width: 30%;
+  }
+  .Calculate-input select {
+    width: 48%;
+  }
+  .Calculate-input-2 select {
+    width: 100%;
+  }
+  .Calculate-title {
+    font-size: 20px;
+  }
+  .bmi-section-contaner {
+    margin: 10px 20px;
+  }
+  .bmi-sition h3 {
+    font-size: 28px;
+  }
+  /* BMI Calculator end */
+  /* Meet Our Team section start */
+  .Meet-section {
+    margin: 20px;
+  }
+  .Meet-box1 {
+    grid-template-columns: 1fr;
+  }
+
+  .Meet-box2 {
+    grid-template-columns: 1fr;
+  }
+  /* Meet Our Team section end */
+  /* footer */
+  .footer-section {
+    background: rgb(26, 26, 26);
+    height: 300px;
+  }
+  .footer-contanrt,
+  .footer-right {
+    display: block;
+  }
+  .footer-p {
+    padding: 10px 0;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /*  banner section start */
@@ -455,4 +636,31 @@ p {
   }
 
   /*  habit to play   end */
+  /* BMI Calculator start */
+  .bmi-contaner {
+    display: block;
+  }
+  .bmi-section-contaner {
+    margin: 20px;
+  }
+
+  .Calculate-input input,
+  select {
+    width: 20%;
+  }
+  .Calculate-input select {
+    margin-top: 20px;
+    width: 30%;
+  }
+  .Calculate-input-2 select {
+    margin-top: 20px;
+    width: 63%;
+  }
+  /* BMI Calculator end */
+  .footer-contanrt {
+    display: block;
+  }
+  .footer-contan {
+    margin: 20px 0;
+  }
 }

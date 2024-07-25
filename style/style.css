@@ -362,9 +362,11 @@ option {
 
 /* Meet Our Team section start */
 .Meet-section {
-  max-width: 1300px;
   text-align: center;
-  padding: 20px 0px;
+}
+.Meet-contaner {
+  max-width: 1300px;
+  margin: auto;
 }
 .Meet-dis {
   margin-bottom: 50px;

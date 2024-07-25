@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+HR:wght@100..400&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+FR+Trad:wght@100..400&family=Playwrite+HR:wght@100..400&display=swap");
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+}
+p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.btn-primary {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 8px 20px 8px 20px;
+}
+
+/* default style */
+* {
+  margin: 0;
+  padding: 0;
+}
+/************************ header style start **********************/
+/* nav style start */
+.header {
+  background-color: rgb(26, 26, 26);
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.nav-titli {
+  color: rgb(230, 83, 60);
+  font-size: 36px;
+  font-weight: 800;
+}
+.login ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.login ul li {
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.color {
+  display: none;
+}
+/* nav style end */
+/* banner style start */
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  justify-content: space-around;
+  gap: 5rem;
+}
+.banner-contain {
+  width: 520px;
+}
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-size: 68px;
+  font-weight: 900;
+  letter-spacing: 0%;
+  line-height: 80px;
+}
+.banner-span {
+  font-family: "Playwrite FR Trad", cursive;
+  font-style: italic;
+  font-weight: 300;
+}
+.banner-dis {
+  margin: 0.85rem 0;
+}
+.btn-primary2 {
+  border-radius: 42px;
+  background: rgb(26, 26, 26);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 8px 20px 8px 20px;
+  margin-left: 0.75rem;
+}
+.banner-img-contaner {
+  position: relative;
+}
+.banner-img img {
+  width: 100%;
+}
+
+.banner-img-box1 {
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  position: absolute;
+  left: -25%;
+  top: 75%;
+}
+.banner-img-box1-title {
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 900;
+}
+.banner-img-box1-round {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+}
+.banner-img-box2 {
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  width: 120px;
+  padding: 1rem;
+  position: absolute;
+  left: 62%;
+  top: 23%;
+}
+.banner-img-box2-title {
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 900;
+}
+.banner-img-box1-sab {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 0.75rem;
+}
+.banner-img-box2-sab {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 0.7rem;
+}
+/* banner style end */
+/***************** header style end *************************/
+/***************** main style start ************************/
+.bg-color {
+  background-color: rgb(26, 26, 26);
+}
+/* Change Your Habits start */
+.Your-Habits {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 3rem;
+}
+.Habits-contaner {
+  text-align: center;
+}
+.Habits-contaner-sab {
+  width: 670px;
+  margin: 1rem auto;
+}
+.Habits-img {
+  width: 190px;
+  height: 190px;
+}
+.Habits-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.Habits-img-conten {
+  width: 200px;
+  margin-top: 58px;
+}
+.Habits-title {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+.Habits-img-conten {
+  text-align: center;
+}
+.Habits-title {
+  margin: 1rem auto;
+}
+.Habits-img-contaner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+/* Change Your Habits end */
+/* Run an Extra  start */
+.Run-section {
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  padding: 3rem;
+  max-width: 1300px;
+  margin: 2rem auto;
+}
+.Run-contaner {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.ren-img img {
+  width: 100%;
+  border-radius: 18px;
+}
+.ren-dis {
+  margin: 25px 0;
+}
+/* Run an Extra  end */
+/* Trainings and Exercises start */
+.Trainings {
+  max-width: 1300px;
+  margin: 20px auto;
+  padding: 2rem;
+}
+.Trainings-title {
+  margin-top: 4rem;
+}
+.Trainings-dis {
+  margin: 10px 0;
+  margin-bottom: 5rem;
+}
+.rew-1 {
+  display: grid;
+  grid-template-columns: 0.55fr 1.4fr 0.6fr;
+}
+.rew-2 {
+  display: grid;
+  grid-template-columns: 1.4fr 0.55fr 0.6fr;
+}
+.Trainings-img img {
+  width: 100%;
+  height: 250px;
+  filter: brightness(70%);
+}
+/*  habit to play   start */
+.play-section {
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  padding: 3rem;
+  max-width: 1300px;
+  margin: 2rem auto;
+}
+.play-contaner {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.play-img img {
+  width: 100%;
+  border-radius: 18px;
+  height: 380px;
+}
+.play-dis {
+  margin: 25px 0;
+}
+.play-contant {
+  max-width: 440px;
+}
+/*  habit to play   end */
+/* Trainings and Exercises end */
+/****************** main style end **************************/
+/******************* footer style start ************************/
+/************************ footer style end ***********************/
+/* ===================================================
+                        media screen
+=================================================== */
+@media screen and (max-width: 576px) {
+  .color {
+    display: block;
+  }
+  .login {
+    display: none;
+  }
+  .nav-bar {
+    padding: 2rem 1rem;
+  }
+  /*  banner section start */
+  .banner {
+    display: block;
+    padding: 1rem;
+  }
+  .banner-img-contaner {
+    padding: 2rem;
+  }
+  .banner-title {
+    font-size: 48px;
+    width: 300px;
+  }
+
+  .banner-dis {
+    width: 300px;
+    margin-bottom: 1rem;
+  }
+  .banner-img-box2 {
+    padding: 0.15rem;
+    position: absolute;
+    left: 55%;
+    top: 15%;
+  }
+  .banner-img-box1 {
+    padding: 0.15rem;
+    position: absolute;
+    left: 4%;
+    top: 48%;
+  }
+  .banner-img-box1-title,
+  .banner-img-box2-title {
+    color: rgb(250, 250, 249);
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .banner-img-box1-sab,
+  .banner-img-box2-sab {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.5rem;
+  }
+  /* Change Your Habits start */
+  .Habits-img-contaner {
+    grid-template-columns: 1fr;
+  }
+  .Habits-img-conten {
+    margin: 0 auto;
+  }
+
+  .Habits-contaner-title {
+    font-size: 25px;
+  }
+  .Habits-contaner-sab {
+    width: 300px;
+    font-size: 13px;
+  }
+  /* Run an Extra  start */
+  .Run-contaner {
+    display: block;
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  .Run-section h3 {
+    font-size: 35px;
+  }
+  .ren-dis {
+    margin: 15px 0;
+  }
+  .btn-primary3 {
+    width: 100%;
+    margin-bottom: 34px;
+  }
+  /*  Run an Extra  end */
+  /* Trainings and Exercises start */
+  .Trainings {
+    margin: 1rem;
+  }
+  .rew-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .rew-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* Trainings and Exercises end */
+  /*  habit to play   start */
+  .play-contaner {
+    display: block;
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  .play-section h3 {
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+  .play-dis {
+    margin: 15px 0;
+  }
+  .btn-primary3 {
+    width: 100%;
+  }
+
+  /*  habit to play   end */
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /*  banner section start */
+  .banner {
+    display: block;
+  }
+  .banner-img-contaner {
+    margin: 2rem;
+  }
+  .banner-img-box2 {
+    padding: 1rem;
+    position: absolute;
+    left: 55%;
+    top: 15%;
+  }
+  .banner-img-box1 {
+    padding: 1rem;
+    position: absolute;
+    left: 4%;
+    top: 58%;
+  }
+  /* Change Your Habits start */
+  .Habits-img-contaner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .Habits-img-conten {
+    margin: 0 auto;
+  }
+  /*  Run an Extra  start */
+  .Run-contaner {
+    gap: 2rem;
+  }
+  .Run-section h3 {
+    font-size: 30px;
+  }
+  .ren-dis {
+    margin: 10px 0;
+  }
+  /*  Run an Extra  end */
+  /*  habit to play   start */
+
+  .play-section h3 {
+    font-size: 38px;
+  }
+  .play-dis {
+    margin: 20px 0;
+  }
+
+  /*  habit to play   end */
+}
